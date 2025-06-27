@@ -359,10 +359,6 @@ msgstr "Основно за „-T0“:"
 msgid "Hardware information:"
 msgstr "О хардверу:"
 
-#: src/xz/hardware.c
-msgid "Memory usage limits:"
-msgstr "Ограничење коришћења меморије:"
-
 #: src/xz/list.c
 msgid "Streams:"
 msgstr "Токови:"
@@ -372,36 +368,12 @@ msgid "Blocks:"
 msgstr "Блокови:"
 
 #: src/xz/list.c
-msgid "Compressed size:"
-msgstr "Величина сажетог:"
-
-#: src/xz/list.c
-msgid "Uncompressed size:"
-msgstr "Величина несажетог:"
-
-#: src/xz/list.c
 msgid "Ratio:"
 msgstr "Однос:"
 
 #: src/xz/list.c
 msgid "Check:"
 msgstr "Провери:"
-
-#: src/xz/list.c
-msgid "Stream Padding:"
-msgstr "Попуна тока:"
-
-#: src/xz/list.c
-msgid "Memory needed:"
-msgstr "Потребна меморија:"
-
-#: src/xz/list.c
-msgid "Sizes in headers:"
-msgstr "Величине у заглављима:"
-
-#: src/xz/list.c
-msgid "Number of files:"
-msgstr "Број датотека:"
 
 #: src/xz/list.c
 msgid "Stream"
@@ -430,10 +402,6 @@ msgstr "ВлчнаЗапак"
 #: src/xz/list.c
 msgid "UncompSize"
 msgstr "ВлчнаНсжтог"
-
-#: src/xz/list.c
-msgid "TotalSize"
-msgstr "УкупнаВлчна"
 
 #: src/xz/list.c
 msgid "Ratio"
@@ -468,26 +436,10 @@ msgid "Filters"
 msgstr "Филтери"
 
 #: src/xz/hardware.c
-msgid "Default for -T0:"
-msgstr ""
-
-#: src/xz/hardware.c
-msgid "Hardware information:"
-msgstr ""
-
-#: src/xz/hardware.c
 #, fuzzy
 #| msgid "Memory usage limit reached"
 msgid "Memory usage limits:"
 msgstr "Ограничење коришћења меморије је достигнуто"
-
-#: src/xz/list.c
-msgid "Streams:"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Blocks:"
-msgstr ""
 
 #: src/xz/list.c
 #, fuzzy
@@ -500,14 +452,6 @@ msgstr "  Величина сажетог:           %s\n"
 #| msgid "  Uncompressed size:  %s\n"
 msgid "Uncompressed size:"
 msgstr "  Величина несажетог:         %s\n"
-
-#: src/xz/list.c
-msgid "Ratio:"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Check:"
-msgstr ""
 
 #: src/xz/list.c
 #, fuzzy
@@ -534,70 +478,10 @@ msgid "Number of files:"
 msgstr "  Број датотека:              %s\n"
 
 #: src/xz/list.c
-msgid "Stream"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Block"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Blocks"
-msgstr ""
-
-#: src/xz/list.c
-msgid "CompOffset"
-msgstr ""
-
-#: src/xz/list.c
-msgid "UncompOffset"
-msgstr ""
-
-#: src/xz/list.c
-msgid "CompSize"
-msgstr ""
-
-#: src/xz/list.c
-msgid "UncompSize"
-msgstr ""
-
-#: src/xz/list.c
 #, fuzzy
 #| msgid "Totals:"
 msgid "TotalSize"
 msgstr "Укупно:"
-
-#: src/xz/list.c
-msgid "Ratio"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Check"
-msgstr ""
-
-#: src/xz/list.c
-msgid "CheckVal"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Padding"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Header"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Flags"
-msgstr ""
-
-#: src/xz/list.c
-msgid "MemUsage"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Filters"
-msgstr ""
 
 #. TRANSLATORS: Indicates that there is no integrity check.
 #. This string is used in tables. In older xz version this

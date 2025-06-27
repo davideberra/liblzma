@@ -360,29 +360,9 @@ msgstr "Decompressione multi-thread:"
 msgid "Default for -T0:"
 msgstr "Valori predefiniti per -T0:"
 
-#: src/xz/hardware.c
-msgid "Hardware information:"
-msgstr "Informazioni hardware:"
-
-#: src/xz/hardware.c
-msgid "Memory usage limits:"
-msgstr "Limiti di utilizzo della memoria:"
-
-#: src/xz/list.c
-msgid "Streams:"
-msgstr "Stream:"
-
 #: src/xz/list.c
 msgid "Blocks:"
 msgstr "Blocchi:"
-
-#: src/xz/list.c
-msgid "Compressed size:"
-msgstr "Dimensione compressa:"
-
-#: src/xz/list.c
-msgid "Uncompressed size:"
-msgstr "Dimensione non compressa:"
 
 #: src/xz/list.c
 msgid "Ratio:"
@@ -391,22 +371,6 @@ msgstr "Rapporto:"
 #: src/xz/list.c
 msgid "Check:"
 msgstr "Controllo:"
-
-#: src/xz/list.c
-msgid "Stream Padding:"
-msgstr "Padding dello stream:"
-
-#: src/xz/list.c
-msgid "Memory needed:"
-msgstr "Memoria necessaria:"
-
-#: src/xz/list.c
-msgid "Sizes in headers:"
-msgstr "Dim. negli header:"
-
-#: src/xz/list.c
-msgid "Number of files:"
-msgstr "Numero di file:"
 
 #: src/xz/list.c
 msgid "Stream"
@@ -435,10 +399,6 @@ msgstr ""
 #: src/xz/list.c
 msgid "UncompSize"
 msgstr ""
-
-#: src/xz/list.c
-msgid "TotalSize"
-msgstr "TotalSize"
 
 #: src/xz/list.c
 msgid "Ratio"
@@ -473,26 +433,10 @@ msgid "Filters"
 msgstr "Filtri"
 
 #: src/xz/hardware.c
-msgid "Default for -T0:"
-msgstr ""
-
-#: src/xz/hardware.c
-msgid "Hardware information:"
-msgstr ""
-
-#: src/xz/hardware.c
 #, fuzzy
 #| msgid "Memory usage limit reached"
 msgid "Memory usage limits:"
 msgstr "Limite di utilizzo della memoria raggiunto"
-
-#: src/xz/list.c
-msgid "Streams:"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Blocks:"
-msgstr ""
 
 #: src/xz/list.c
 #, fuzzy
@@ -505,14 +449,6 @@ msgstr "  Dim. compresso:       %s\n"
 #| msgid "  Uncompressed size:  %s\n"
 msgid "Uncompressed size:"
 msgstr "  Dim. estratto:        %s\n"
-
-#: src/xz/list.c
-msgid "Ratio:"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Check:"
-msgstr ""
 
 #: src/xz/list.c
 #, fuzzy
@@ -539,70 +475,10 @@ msgid "Number of files:"
 msgstr "  Numero di file:       %s\n"
 
 #: src/xz/list.c
-msgid "Stream"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Block"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Blocks"
-msgstr ""
-
-#: src/xz/list.c
-msgid "CompOffset"
-msgstr ""
-
-#: src/xz/list.c
-msgid "UncompOffset"
-msgstr ""
-
-#: src/xz/list.c
-msgid "CompSize"
-msgstr ""
-
-#: src/xz/list.c
-msgid "UncompSize"
-msgstr ""
-
-#: src/xz/list.c
 #, fuzzy
 #| msgid "Totals:"
 msgid "TotalSize"
 msgstr "Totali:"
-
-#: src/xz/list.c
-msgid "Ratio"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Check"
-msgstr ""
-
-#: src/xz/list.c
-msgid "CheckVal"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Padding"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Header"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Flags"
-msgstr ""
-
-#: src/xz/list.c
-msgid "MemUsage"
-msgstr ""
-
-#: src/xz/list.c
-msgid "Filters"
-msgstr ""
 
 #. TRANSLATORS: Indicates that there is no integrity check.
 #. This string is used in tables. In older xz version this
